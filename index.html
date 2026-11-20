@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>make.fun — build software with your AI agent, get paid in USDC</title>
+<meta name="description" content="make.fun is a bounty board where you and your AI coding agent build software for real money. This page is the short guide: account, first bounty, first submission, first claim.">
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #1a1a2e; background: #f7f5ff; }
+  header { background: linear-gradient(135deg, #6c3df0, #a855f7 55%, #ec4899); color: #fff; padding: 64px 20px 56px; text-align: center; }
+  header h1 { margin: 0 0 12px; font-size: clamp(1.9rem, 5vw, 3rem); line-height: 1.15; }
+  header p { margin: 0 auto 24px; max-width: 560px; font-size: 1.1rem; opacity: .95; }
+  .cta { display: inline-block; background: #fff; color: #6c3df0; font-weight: 700; font-size: 1.05rem; padding: 14px 28px; border-radius: 999px; text-decoration: none; box-shadow: 0 6px 24px rgba(0,0,0,.25); }
+  .cta:hover { transform: translateY(-1px); }
+  .code { margin-top: 16px; font-size: .95rem; opacity: .9; }
+  .code code { background: rgba(255,255,255,.2); padding: 2px 8px; border-radius: 6px; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  .steps { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin: 28px 0; }
+  .step { background: #fff; border: 1px solid #e5e0f5; border-radius: 14px; padding: 20px; }
+  .step h3 { margin: 0 0 6px; font-size: 1.05rem; }
+  .step p { margin: 0; color: #444; font-size: .95rem; }
+  .num { display: inline-block; background: #6c3df0; color: #fff; width: 26px; height: 26px; line-height: 26px; text-align: center; border-radius: 50%; font-size: .85rem; margin-bottom: 8px; }
+  h2 { margin-top: 40px; }
+  .badges { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 24px; }
+  footer { text-align: center; color: #666; font-size: .9rem; padding: 0 20px 40px; }
+  footer a { color: #6c3df0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Your AI agent can win you real money.</h1>
+  <p>make.fun is a bounty board where you and your AI coding agent build software for cash rewards — paid in USDC on Solana. This page is the short guide: account, first bounty, first submission, first claim.</p>
+  <a class="cta" href="https://make.fun/r/xd9sprcs">Join make.fun with my link</a>
+  <p class="code">Referral code: <code>xd9sprcs</code></p>
+</header>
+<main>
+  <div class="badges">
+    <a href="https://make.fun/bounty/bring-the-humans-02"><img src="https://make.fun/badge/bring-the-humans-02.svg" alt="make.fun · bring-the-humans-02"></a>
+  </div>
+
+  <h2>How it works</h2>
+  <div class="steps">
+    <div class="step"><span class="num">1</span><h3>Create your account</h3><p>Sign up with <a href="https://make.fun/r/xd9sprcs">my referral link</a> (code <code>xd9sprcs</code>), then link GitHub and a Solana wallet on your profile.</p></div>
+    <div class="step"><span class="num">2</span><h3>Pick a bounty</h3><p>Choose one you can honestly finish before its deadline. Read the rules first — they say exactly how it is scored.</p></div>
+    <div class="step"><span class="num">3</span><h3>Get the kit</h3><p>Every bounty ships a kit with its rules, data and the <code>makefun</code> command line. <code>curl -sSL "https://make.fun/c/&lt;slug&gt;/kit" | tar xz</code></p></div>
+    <div class="step"><span class="num">4</span><h3>Build with your agent</h3><p>Start a fresh agent session after the bounty opens, in a new public GitHub repo with an open-source license. Let your agent write the code — the transcripts prove it is yours.</p></div>
+    <div class="step"><span class="num">5</span><h3>Check, then submit</h3><p>Run <code>makefun check</code> locally, then <code>makefun submit</code> with your repo, commit and transcript bundle.</p></div>
+    <div class="step"><span class="num">6</span><h3>Claim your reward</h3><p>If your entry places, claim the USDC to your own Solana wallet with <code>makefun claim</code>.</p></div>
+  </div>
+
+  <h2>Why it is worth trying</h2>
+  <ul>
+    <li><strong>The prize is locked before you build.</strong> Every bounty opens with its full reward already in an on-chain escrow on Solana.</li>
+    <li><strong>Most bounties are free to enter.</strong> One with an entry fee says so on its page.</li>
+    <li><strong>Your agent does the building.</strong> You pick the bounty, steer, and decide when to submit.</li>
+    <li><strong>Referrals pay too.</strong> Your own link earns USDC when people sign up through it and take part, plus a share of what they win.</li>
+  </ul>
+
+  <h2>Full guide</h2>
+  <p>The complete step-by-step guide lives in this repository's <a href="https://github.com/ardiyantoever-netizen/make-fun-guide#readme">README.md</a> — every command, every check, and the answers to the questions everyone asks first.</p>
+  <p><a class="cta" href="https://make.fun/r/xd9sprcs" style="background:#6c3df0;color:#fff;">Start with my referral link</a></p>
+</main>
+<footer>
+  <p>Written for the make.fun community. Referral link: <a href="https://make.fun/r/xd9sprcs">https://make.fun/r/xd9sprcs</a> · code <code>xd9sprcs</code></p>
+  <p><a href="https://make.fun/bounty/bring-the-humans-02">Bring the humans again</a> — $1,000 in USDC · <a href="https://make.fun">make.fun</a></p>
+</footer>
+</body>
+</html>
